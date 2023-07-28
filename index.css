@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p{
+ text-align: center;
+}
+a, h2{
+ font-weight: 700;
+}
+nav{
+ background: linear-gradient(rgba(33, 31, 31, 0.6),rgba(24, 24, 24, 0.5)),url('/images/netflixlogo.jpg');
+ background-repeat: no-repeat;
+ color: gray;
+ background-size: cover;
+}
+
+#panel, #panel-2, #panel-1,#panel-3,
+#panel-4,#panel-5{
+  padding: 50px;
+  display: none;
+}
+#flip, #flip-1, #panel, #panel-1, #flip-4, #panel-2,#flip-2,
+#flip-3,
+#panel-4,
+#panel-3,#flip-5,
+#panel-5 {
+ padding: 5px;
+ text-align: center;
+ border: solid 1px black;
+}
+li{
+  list-style-type: none;
+}
+li a{
+  font-weight: normal;
+}
